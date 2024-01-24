@@ -12,7 +12,6 @@ $evento=Eventos::buscaEvento($id);
 $proyecto = $evento->getIdProyecto();
 
 $propietario = $evento->getPropietario();
-
 ?>
 
 <!DOCTYPE html>
